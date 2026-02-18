@@ -1,0 +1,48 @@
+name: hancod_machine_test
+description: Flutter Machine Test
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Backend & Auth
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.8
+  google_sign_in: ^6.2.1
+  supabase_flutter: ^2.5.1
+
+  # Location
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+  # Utility
+  intl: ^0.19.0 # Added for date formatting
+  uuid: ^4.4.0 # Added for unique booking IDs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code Generation
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
